@@ -1,0 +1,105 @@
+html,body {
+ margin: 0;
+ padding: 0;
+ height: 100%;
+ width: 100%
+}
+body{
+ background:url(Images/Background\ 1.jpg) no-repeat;
+}
+.intro{
+ margin: 5px 100px;
+}
+.launch{
+ font-family: cursive;
+ font-size: 4em;
+ font-style: italic;
+ line-height: 8px;
+}
+.book{
+ font-size: 6em;
+ font-weight: 7em;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ line-height: 5px;
+}
+.intro p{
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ font-weight: 500;
+ font-size: 1em;
+}
+.inner{
+ margin: 30px 100px;
+ display: flex;
+ flex-direction: row;
+}
+.btn{
+ margin: 30px 100px;
+ text-decoration: none;
+ border-radius: 10px;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ color: yellow;
+ font-size: 1.6em;
+ padding: 10px 20px;
+ border: transparent;
+ text-transform: uppercase;
+ text-decoration: none;
+ background-color: black;
+}
+.btn:hover {
+ color: #fff;
+ border: solid #fff 3px
+}
+.date{
+ border: 0.3px black solid;
+ padding:10px 50px ;
+ max-width: 200px;
+ text-align: center;
+}
+.time{
+ border: 0.3px black solid;
+ padding:10px 60px ;
+ max-width: 200px;
+}
+.second{
+ text-align: center;
+ font-size: 2em;
+ font-weight: 900;
+ color: yellow;
+}
+.third{
+ text-align: center;
+ font-size: 2em;
+ font-weight: 500;
+ border: transparent;
+ background-color: black;
+ color: yellow;
+}
+.two{
+ font-size: 2em;
+ font-weight: 900;
+ color: yellow;
+}
+.three{
+ font-size: 2em;
+ font-weight: 500;
+ border: transparent;
+ background-color: black;
+ color: yellow;
+}
+.image{
+ margin: -600px 30px 50px 800px;
+ display: flex;
+ position: absolute;
+ align-self: flex-start;
+max-height: 100%;
+}
+.overlay{
+ position: absolute;
+ top:0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background: black;
+ mix-blend-mode: screen ;
+}
+ 
